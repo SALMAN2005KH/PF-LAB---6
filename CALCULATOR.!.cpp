@@ -3,7 +3,6 @@ int main(){
 
     int num1, num2, choice, sum, subtr, multi, div;
     
-    
     do {
     	printf("Choose an Operation (1. ADDITION 2. SUBTRACTION 3. MULTIPLICATION 4. DIVISION 5. EXIT) : ");
     	printf("Enter Your choice : ");
@@ -35,16 +34,16 @@ int main(){
 		 		printf("\nThe DIVISION OF %d and %d is %d\n", num1,num2,div);break;
 			 }
 			 else {
-			 	printf("\nDIVIDE BY ZERO IS INFINITY.");
+			 	printf("\nDIVIDE BY ZERO IS INFINITY.\n");
 			 }
 			 break;
-			 case 5:
-				printf("\nExit.");break;
-	
-		 		
+             	
 		 }  
 		}
 		
-	}while(choice!=5);
-	return 0;
+	}while(choice != 5);
+    printf("Exit.Thanks For using \"CALCULATOR\".");
+return 0;
 }
+		
+	
